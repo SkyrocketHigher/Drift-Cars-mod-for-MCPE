@@ -8,7 +8,7 @@
       "contact": "https://google.com/",
       
       "addon": false,
-      "maps": true,
+      "maps": false,
       "texture": false,
       "skin": true,
       "more": false,
@@ -45,21 +45,13 @@
   ],
   "Map": [
     {
-    "name": "City Building Kit",
-    "role": "Hello! Do you need help building your city! Here's the city building kit! Just clone or use a structure block to paste the roads and details together! And you build the rest!",
-    "image": "https://kossandroid.com/Data Android/Minecraft/Train/4/1.png",
-    "file_url": "https://kossandroid.com/Data Android/Minecraft/Train/4/Citykit.mcworld",
-    "imgcoversatu": "https://kossandroid.com/Data Android/Minecraft/Train/4/3.png",
-    "imgcoverdua": "https://kossandroid.com/Data Android/Minecraft/Train/4/2.png,"
-  },
-  {
-    "name": "Flood Escape 1.2 (normal mode)",
-    "role": "An interesting version of the normal minecraft parkour mixed with deadly water and find the button to make your path to victory.inspired from Roblox 'Flood Escape Classic' By CrazyBlox.",
-    "image": "https://kossandroid.com/Data Android/Minecraft/Train/6/3.jpeg",
-    "file_url": "https://kossandroid.com/Data Android/Minecraft/Train/6/flood2.mcworld",
-    "imgcoversatu": "https://kossandroid.com/Data Android/Minecraft/Train/6/2.jpeg",
-    "imgcoverdua": "https://kossandroid.com/Data Android/Minecraft/Train/6/1.jpeg,"
-  }
+      "name": "",
+      "role": "",
+      "image": "",
+      "file_url": "",
+      "imgcoversatu": "",
+      "imgcoverdua": ""
+    }
   ],
   "Texture": [
     {
