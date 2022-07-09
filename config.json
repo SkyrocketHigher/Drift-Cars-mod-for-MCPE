@@ -1,114 +1,453 @@
 {
-  "Config": [
-    {
-      "interval": 5,
-      "backup": "unity",
-      "status": true,
-      "link": "https://google.com/",
-      "contact": "https://google.com/",
-      
-      "addon": false,
-      "maps": false,
-      "texture": false,
-      "skin": true,
-      "more": false,
-      
-      "admob_open_ads": "ca-app-pub-3940256099942544/3419835294",
-      "admob_banner": "ca-app-pub-3940256099942544/6300978111",
-      "admob_inter": "ca-app-pub-3940256099942544/1033173712",
-      "admob_native": "ca-app-pub-3940256099942544/2247696110",
-     
-      
-      "unity_banner": "Banner_Android",
-      "unity_inter": "Interstitial_Android",
-      
-      
-      "applovin_banner": "unitid",
-      "applovin_inter": "unitid",
-      "applovin_native": "unitid",
-      
-      "ironsource_banner": "1215fccad",
-      "ironsource_inter": "1215fccad"
-      
-      
-    }
-  ],
-  "Addon": [
-    {
-      "name": "",
-      "role": "",
-      "image": "",
-      "file_url": "",
-      "imgcoversatu": "",
-      "imgcoverdua": ""
-    }
-  ],
-  "Map": [
-    {
-      "name": "",
-      "role": "",
-      "image": "",
-      "file_url": "",
-      "imgcoversatu": "",
-      "imgcoverdua": ""
-    }
-  ],
-  "Texture": [
-    {
-      "name": "",
-      "role": "",
-      "image": "",
-      "file_url": "",
-      "imgcoversatu": "",
-      "imgcoverdua": ""
-    }
-  ],
-  "Skins": [
-    {
-    "id": 1,
-    "name_skin": "",
-    "skin_url": "https://lh3.googleusercontent.com/XrSCU9eEwIl9ifDDaBMzUKRfjGYygeOeItwYZkjIMlLaSTRakAp8GQNQQwufMhMMrLxlohSCRs0ByGRSoTlMdC3Vwyx2fTKV9nc",
-    "view_skin": "https://lh3.googleusercontent.com/bK6fQ1_GLxFSM8W9K8VYOWj0bEeaKKulyM_NUUn_-FhSn9nbiSrmN9ohA2gyZXpziGm3mjiwY1QT2YQWCmZizCGDyowiOevGtw"
-  },
-  {
-    "id": 2,
-    "name_skin": "",
-    "skin_url": "https://lh3.googleusercontent.com/Njvt7MzoiiKkJ7Q3hYkoG2ePZrJ3bz_zP6ykswf60xo5XhNoXdKPeV4F4mKQlJczl7YsUMw206y7yDnTDFbS7rcRDpx8KxnDwaRX",
-    "view_skin": "https://lh3.googleusercontent.com/5k8igvvZFRiMP31GegqVcLO4GDSX7ubNGQr0ccalFRR-vQ0FL_-_wjFOM59WEP6meVVYEhl6QBS5n38pO3Mu6B-WS-wBSB-_1sw"
-  },
-  {
-    "id": 3,
-    "name_skin": "",
-    "skin_url": "https://lh3.googleusercontent.com/ykC2C3HaskX7i-szIFUcKL8nbuiDgB8Vq5XIUZhHjyV3L7EL2xEuw5sG37L8_dlxHOs7vvZxyozxrfxQNslyN6vyubAbsqMmpp0",
-    "view_skin": "https://lh3.googleusercontent.com/14h5psks4qgG5BuutOUesE4HYzmOU1u9tLmeLhROg0VE8h66hSEcWwlMVLhoNPMaO0nQkY2MRY3LY51xYWJBuvVsSWp7xkaqhw"
-  },
-  {
-    "id": 4,
-    "name_skin": "",
-    "skin_url": "https://lh3.googleusercontent.com/A_Nfnsw_5zNG3DhVKdNTvhLs4oUVfY_b8tEupmzhAvaVPLa7w7Kal62_KTDafWL5SL42I8BRnuO497KJ3mGANkwUBpsEZSaeWWY",
-    "view_skin": "https://lh3.googleusercontent.com/dhhgsUJ4e1IIV2B72HYnKMBcbBB2VRyZSKmM32ritCQVvCswh_Hu4qNN8w1pLssYdes6qpQ97wjFckXUV_oy_9pbR2mLoyyUEw"
-  },
-  {
-    "id": 5,
-    "name_skin": "",
-    "skin_url": "https://lh3.googleusercontent.com/nJjSIpnuKu80I0RYiJOzorE2zOgWFWK3IR0MjT-x1QI_ZZoiKLlCB_rXTWdrCauo0mWCNmqrkRvX387QzjrbEHyeRe4Xkwgeqdzz",
-    "view_skin": "https://lh3.googleusercontent.com/aJphMYrHuev3F1IKoC0j_eKWspPca8aMduUwBidAFJrUNLvMOOaBfquENQIT87C6LTlKmHAqdj-eQo1pde6S2MJkYo7DlpBjgc_6"
+    "Config": [
+      {
+        "interval": 2,
+        "backup": "unity",
+        "status": true,
+        "link": "https://google.com/",
+        "contact": "https://google.com/",
+        
+        "addon": true,
+        "maps": false,
+        "texture": true,
+        "skin": true,
+        "more": false,
+        
+        "admob_open_ads": "ca-app-pub-3044835834543602/3809777488",
+        "admob_banner": "ca-app-pub-3940256099942544/6300978111",
+        "admob_inter": "ca-app-pub-3044835834543602/5545530987",
+        "admob_native": "ca-app-pub-3044835834543602/5767239872",
+       
+        
+        "unity_banner": "Banner_Android",
+        "unity_inter": "Interstitial_Android",
+        
+        
+        "applovin_banner": "unitid",
+        "applovin_inter": "unitid",
+        "applovin_native": "unitid",
+        
+        "ironsource_banner": "1215fccad",
+        "ironsource_inter": "1215fccad"
+        
+        
+      }
+    ],
+    "Addon": [
+        {
+            "name": "JDM Legacy Car Pack",
+            "role": "Now that I'm focusing on the European/American side of performance cars, I thought I make one main pack for my previous series, the JDM saga! Unlike my previous car packs, you can now get more than 1 color for a car in this pack by using a special item I call 'PaintMatic'. It basically allows you to color/dye a car to a certain color! Just like how you'd dye a sheep. With this, you essentially have all the color variants for almost every single JDM car I've made in one small package!",
+            "image": "https://kossandroid.com/Data Android/Minecraft/Cars/1/empat.png",
+            "file_url": "https://kossandroid.com/Data Android/Minecraft/Cars/1/JDM Legacy Mobile v1.1.mcaddon",
+            "imgcoversatu": "https://kossandroid.com/Data Android/Minecraft/Cars/1/empat.png",
+            "imgcoverdua": "https://kossandroid.com/Data Android/Minecraft/Cars/1/dua.png"
+        },
+        {
+            "name": "GM Daewoo Tosca / Chevrolet Epica Addon",
+            "role": "This add-on adds a very nice looking car to your Minecraft world. Download this add-on today to add a brand-new car to Minecraft now! The addon was made by iMasterProX.",
+            "image": "https://kossandroid.com/Data Android/Minecraft/Cars/3/satu.png",
+            "file_url": "https://kossandroid.com/Data Android/Minecraft/Cars/3/Daewoo_Tosca_Addon_1.2.5_1598899987.mcaddon",
+            "imgcoversatu": "https://kossandroid.com/Data Android/Minecraft/Cars/3/satu.png",
+            "imgcoverdua": "https://kossandroid.com/Data Android/Minecraft/Cars/3/satu.png"
+        },
+        {
+            "name": "Land Rover Discovery 4 Addon",
+            "role": "I introduce an add-on created using 13396 cubes for one month. It contains my sweat and devotion. I thought I would give up, but it was finished.",
+            "image": "https://kossandroid.com/Data Android/Minecraft/Cars/5/satu.png",
+            "file_url": "https://kossandroid.com/",
+            "imgcoversatu": "https://kossandroid.com/Data Android/Minecraft/Cars/5/satu.png",
+            "imgcoverdua": "https://kossandroid.com/Data Android/Minecraft/Cars/5/LandRover_Discovery4_Addon_1.2.0_1598899177.mcaddon"
+        },
+        {
+            "name": "Minecon 2021 Mobs Add-on",
+            "role": "In this add-on I added the three mobs for voting.I created this add-on a few days ago, but only today I managed to publish it, we already know who won,congratulations allay! but now you can enjoy all the mobs. Except for one, the bean already has similar functions to those given by minecraft, but I couldn't add them identical. I am working to improve them,but at the same time I am working on other add-ons and the next update for this add-on will appear later. For the functions currently added to the mobs, you can find them below in the description of each mob",
+            "image": "https://kossandroid.com/Data Android/Minecraft/copper golem/2/1.png",
+            "file_url": "https://kossandroid.com/Data Android/Minecraft/copper golem/2/Minecon_2021_Mobs_Addon.mcaddon",
+            "imgcoversatu": "https://kossandroid.com/Data Android/Minecraft/copper golem/2/2.png",
+            "imgcoverdua": "https://kossandroid.com/Data Android/Minecraft/copper golem/2/3.png"
+        },
+        {
+            "name": "Copper Golem Friend",
+            "role": "This addon adds a copper golem, which was shown at Minecon 2021. Unfortunately, he can't press the buttons, but he will become a friend for you. Initially, he will be afraid of anything that can harm him. But if you tame him, he will be your protector and faithful companion.",
+            "image": "https://kossandroid.com/Data Android/Minecraft/copper golem/3/1.png",
+            "file_url": "https://kossandroid.com/Data Android/Minecraft/copper golem/3/Friend_Copper_Golem.mcaddon",
+            "imgcoversatu": "https://kossandroid.com/Data Android/Minecraft/copper golem/3/1.png",
+            "imgcoverdua": "https://kossandroid.com/Data Android/Minecraft/copper golem/3/1.png"
+        },
+        {
+            "name": "M'Golem (V1)",
+            "role": "Well Its quiet Easy to explain.This addon adds (13) New Golems into MC!These are quiet simple Golems but some have special abilitys and the better the Golem the Bigger :PSo welp Hope you enjoy! :)   Btw Turn on All experimental Gameplay Features  On   ",
+            "image": "https://kossandroid.com/Data Android/Minecraft/copper golem/6/1.png",
+            "file_url": "https://kossandroid.com/Data Android/Minecraft/copper golem/6/MGolem_V1.mcaddon",
+            "imgcoversatu": "https://kossandroid.com/Data Android/Minecraft/copper golem/6/2.png",
+            "imgcoverdua": "https://kossandroid.com/Data Android/Minecraft/copper golem/6/3.png"
+        },
+        {
+            "name": "More Golems Remastered! (V2 Update!)",
+            "role": "I've decide to remaster my old more golems addon. Have you ever wanted custom golems? Well your dreams has come true! This addon adds 10+ custom golems! Diamond Golem, Golden Golem, Emerald Golem, and much more!",
+            "image": "https://kossandroid.com/Data Android/Minecraft/copper golem/7/1.png",
+            "file_url": "https://kossandroid.com/Data Android/Minecraft/copper golem/7/More_Golems_Remastered.mcaddon",
+            "imgcoversatu": "https://kossandroid.com/Data Android/Minecraft/copper golem/7/2.png",
+            "imgcoverdua": "https://kossandroid.com/Data Android/Minecraft/copper golem/7/3.png"
+        },
+        {
+            "name": "V1.2 Ninja Armor",
+            "role": "Ninja armor is a new minecraft addon than adds new ninja armors,  new swords and the new projectils (shiruren, kunai, ninja star, kama, mesibushi,and more). Everything can be obtained from survival. The addon has compatibility with the samurai armor addon you can check out at this link mcpedl.com/samurai-armor-addon-1/",
+            "image": "https://kossandroid.com/Data Android/Minecraft/ninja/1/1.jpeg",
+            "file_url": "https://kossandroid.com/Data Android/Minecraft/ninja/1/V1.2_Ninja_armor_1626732788611.mcaddon",
+            "imgcoversatu": "https://kossandroid.com/Data Android/Minecraft/ninja/1/3.jpeg",
+            "imgcoverdua": "https://kossandroid.com/Data Android/Minecraft/ninja/1/2.jpeg"
+        },
+        {
+            "name": "Combastical Ninjas Addon",
+            "role": "In here I bring you super strong mobs that are more formidable than any other mobs in MCBE. Today I will show you the very strong mobs, it will beat anything if you try it against other mobs. Well we can see if they are really strong or not, so they can be in a mob battle!!!",
+            "image": "https://kossandroid.com/Data Android/Minecraft/ninja/2/1.png",
+            "file_url": "https://kossandroid.com/Data Android/Minecraft/ninja/2/Combastical Ninjas.mcaddon",
+            "imgcoversatu": "https://kossandroid.com/Data Android/Minecraft/ninja/2/3.png",
+            "imgcoverdua": "https://kossandroid.com/Data Android/Minecraft/ninja/2/2.png"
+        },
+        {
+            "name": "Ninja Pack",
+            "role": "Do you want to be like a Ninja in Minecraft? Data Android/Minecraft/ninja/3/1.png Well this addon add items that ninja use Like shuriken, katana, sickle and more! This addon also add a Ninja that holds a katana!",
+            "image": "https://kossandroid.com/Data Android/Minecraft/ninja/3/3.png",
+            "file_url": "https://kossandroid.com/Data Android/Minecraft/ninja/3/Ninja Pack.mcaddon",
+            "imgcoversatu": "https://kossandroid.com/Data Android/Minecraft/ninja/3/2.png",
+            "imgcoverdua": "https://kossandroid.com/Data Android/Minecraft/ninja/3/2.png"
+        },
+        {
+            "name": "Ninja Addon (R)",
+            "role": "Hello and welcome to my new Addon, in this Addon, I added new Ninja Tools And Armors,You can find full ninja armor, katana, dark steel, srak steel katana, and more!!These tools and armor will help you to fight mobs and beat the ender dragon like a ninja, you can craft these tools in the crafting table, and it's easy to get them,This is the addon, hope you enjoy it,Good luck. This is the addon, hope you enjoy it,",
+            "image": "https://kossandroid.com/Data Android/Minecraft/ninja/5/3.png",
+            "file_url": "https://kossandroid.com/Data Android/Minecraft/ninja/5/Ninja_Addon_RES.mcaddon",
+            "imgcoversatu": "https://kossandroid.com/Data Android/Minecraft/ninja/5/2.png",
+            "imgcoverdua": "https://kossandroid.com/Data Android/Minecraft/ninja/5/1.png"
+        },
+        {
+            "name": "Ninja Addon (B)",
+            "role": "Hello and welcome to my new Addon, in this Addon, I added new Ninja Tools And Armors,You can find full ninja armor, katana, dark steel, srak steel katana, and more!!These tools and armor will help you to fight mobs and beat the ender dragon like a ninja, you can craft these tools in the crafting table, and it's easy to get them,This is the addon, hope you enjoy it,Good luck. This is the addon, hope you enjoy it,",
+            "image": "https://kossandroid.com/Data Android/Minecraft/ninja/5/1.png",
+            "file_url": "https://kossandroid.com/Data Android/Minecraft/ninja/5/Ninja_Addon_BEH.mcaddon",
+            "imgcoversatu": "https://kossandroid.com/Data Android/Minecraft/ninja/5/2.png",
+            "imgcoverdua": "https://kossandroid.com/Data Android/Minecraft/ninja/5/1.png"
+        },
+        {
+            "name": "M.A.R Ninja 200",
+            "role": "M.A.R. Ninja 200 is a type of custom motor bike that can be use  in the game and available to find  in creative inventory. I create this add-on to give more fun in the game. This is also useful in role play maps.",
+            "image": "https://kossandroid.com/Data Android/Minecraft/ninja/6/2.png",
+            "file_url": "https://kossandroid.com/Data Android/Minecraft/ninja/6/M.A.R.-Ninja-200.mcaddon",
+            "imgcoversatu": "https://kossandroid.com/Data Android/Minecraft/ninja/6/1.png",
+            "imgcoverdua": "https://kossandroid.com/Data Android/Minecraft/ninja/6/1.png"
+        },
+        {
+            "name": "Throwables Addon Small Update (+102 Throwable Items [Simple Throwing Knives])",
+            "role": "So this addon adds +102 throwable items but i have to say that I just created this mod for fun but it actually has some good use in your survival world and is also multiplayer compatible.",
+            "image": "https://kossandroid.com/Data Android/Minecraft/ninja/8/3.png",
+            "file_url": "https://kossandroid.com/Data Android/Minecraft/ninja/8/Throwables_addon_1620337096618.mcaddon",
+            "imgcoversatu": "https://kossandroid.com/Data Android/Minecraft/ninja/8/3.png",
+            "imgcoverdua": "https://kossandroid.com/Data Android/Minecraft/ninja/8/1.png"
+        }
+    ],
+    "Map": [
+      {
+        "name": "",
+        "role": "",
+        "image": "",
+        "file_url": "",
+        "imgcoversatu": "",
+        "imgcoverdua": ""
+      }
+    ],
+    "Texture": [
+        {
+            "name": "Mine-Cars Add-on (B)",
+            "role": "The Mine-Cars Add-on replaces five mobs in-game with five brand new cars. The vehicles are quite fast and offer a great opportunity to more easily move around in Minecraft. The vehicles are very good as they require no fuel. In that sense, it's a car of the future.",
+            "image": "https://kossandroid.com/Data Android/Minecraft/Cars/2/tiga.jpg",
+            "file_url": "https://kossandroid.com/Data Android/Minecraft/Cars/2/mine-cars-4-behavior.mcpack",
+            "imgcoversatu": "https://kossandroid.com/Data Android/Minecraft/Cars/2/satu.jpg",
+            "imgcoverdua": "https://kossandroid.com/Data Android/Minecraft/Cars/2/dua.jpg"
+        },
+        {
+            "name": "Mine-Cars Add-on (R)",
+            "role": "The Mine-Cars Add-on replaces five mobs in-game with five brand new cars. The vehicles are quite fast and offer a great opportunity to more easily move around in Minecraft. The vehicles are very good as they require no fuel. In that sense, it's a car of the future.",
+            "image": "https://kossandroid.com/Data Android/Minecraft/Cars/2/tiga.jpg",
+            "file_url": "https://kossandroid.com/Data Android/Minecraft/Cars/2/mine-cars-4-resource.mcpack",
+            "imgcoversatu": "https://kossandroid.com/Data Android/Minecraft/Cars/2/satu.jpg",
+            "imgcoverdua": "https://kossandroid.com/Data Android/Minecraft/Cars/2/dua.jpg"
+        },
+        {
+            "name": "Cable Car Addon",
+            "role": "This Addon adds new features for the normal minecart to your world.Instead creating a completely new entity, I changed the behavior of minecarts and armor stands in the way, that you can use them also as a cable car.(So don't worry, nevertheless you can further use them as normal vanilla minecarts and armor stands ;)  )",
+            "image": "https://kossandroid.com/Data Android/Minecraft/Cars/4/satu.png",
+            "file_url": "https://kossandroid.com/Data Android/Minecraft/Cars/4/Cable_Car_Addon.mcpack",
+            "imgcoversatu": "https://kossandroid.com/Data Android/Minecraft/Cars/4/dua.png",
+            "imgcoverdua": "https://kossandroid.com/Data Android/Minecraft/Cars/4/dua.png"
+        },
+        {
+            "name": "Copper Golem Addon || Beta v2 (B)",
+            "role": "This is an addon based on the deleted mob Copper Golem, which adds this entity and its function of pressing buttons, if you are interested in the addon I invite you to download it.",
+            "image": "https://kossandroid.com/Data Android/Minecraft/copper golem/1/1.png",
+            "file_url": "https://kossandroid.com/Data Android/Minecraft/copper golem/1/Copper_Golem_v2_BP.mcpack",
+            "imgcoversatu": "https://kossandroid.com/Data Android/Minecraft/copper golem/1/3.png",
+            "imgcoverdua": "https://kossandroid.com/Data Android/Minecraft/copper golem/1/2.png"
+        },
+        {
+            "name": "Copper Golem Addon || Beta v2 (R)",
+            "role": "This is an addon based on the deleted mob Copper Golem, which adds this entity and its function of pressing buttons, if you are interested in the addon I invite you to download it.",
+            "image": "https://kossandroid.com/Data Android/Minecraft/copper golem/1/1.png",
+            "file_url": "https://kossandroid.com/Data Android/Minecraft/copper golem/1/Copper_Golem_v2_RP.mcpack",
+            "imgcoversatu": "https://kossandroid.com/Data Android/Minecraft/copper golem/1/3.png",
+            "imgcoverdua": "https://kossandroid.com/Data Android/Minecraft/copper golem/1/2.png"
+        },
+        {
+            "name": "Mobs2021 Addon - Bug Fixes! (B)",
+            "role": "Sad why I don't win the copper golem or the glare? well stop being because I bring a complement for your minecraft that adds to the copper golem and the glare. each with their behaviors",
+            "image": "https://kossandroid.com/Data Android/Minecraft/copper golem/4/1.png",
+            "file_url": "https://kossandroid.com/Data Android/Minecraft/copper golem/4/Mobs2021_BH.mcpack",
+            "imgcoversatu": "https://kossandroid.com/Data Android/Minecraft/copper golem/4/2.png",
+            "imgcoverdua": "https://kossandroid.com/Data Android/Minecraft/copper golem/4/3.png"
+        },
+        {
+            "name": "Mobs2021 Addon - Bug Fixes!(R)",
+            "role": "Sad why I don't win the copper golem or the glare? well stop being because I bring a complement for your minecraft that adds to the copper golem and the glare. each with their behaviors",
+            "image": "https://kossandroid.com/Data Android/Minecraft/copper golem/4/1.png",
+            "file_url": "https://kossandroid.com/Data Android/Minecraft/copper golem/4/Mobs2021_RS.mcpack",
+            "imgcoversatu": "https://kossandroid.com/Data Android/Minecraft/copper golem/4/2.png",
+            "imgcoverdua": "https://kossandroid.com/Data Android/Minecraft/copper golem/4/3.png"
+        },
+        {
+            "name": "Copper Golem Concept | Beta (B)",
+            "role": "A few days ago it was the mob voting and the copper golem failed to be the winner. So I made this addon to see a concept of what it could have been.",
+            "image": "https://kossandroid.com/Data Android/Minecraft/copper golem/5/1.png",
+            "file_url": "https://kossandroid.com/Data Android/Minecraft/copper golem/5/Copper_Golem_Concept_BP.mcpack",
+            "imgcoversatu": "https://kossandroid.com/Data Android/Minecraft/copper golem/5/2.png",
+            "imgcoverdua": "https://kossandroid.com/Data Android/Minecraft/copper golem/5/3.png"
+        },
+        {
+            "name": "Copper Golem Concept | Beta (R)",
+            "role": "A few days ago it was the mob voting and the copper golem failed to be the winner. So I made this addon to see a concept of what it could have been.",
+            "image": "https://kossandroid.com/Data Android/Minecraft/copper golem/5/1.png",
+            "file_url": "https://kossandroid.com/Data Android/Minecraft/copper golem/5/Copper_Golem_Concept_RP.mcpack",
+            "imgcoversatu": "https://kossandroid.com/Data Android/Minecraft/copper golem/5/2.png",
+            "imgcoverdua": "https://kossandroid.com/Data Android/Minecraft/copper golem/5/3.png"
+        },
+        {
+            "name": "Better Mob Animations Resource Pack",
+            "role": "Are you bored of the default vanilla mob animations? Well, this addon will spice things up with new and improved minecraft vanilla mob animations! Plus, you can also play with achievements with this resource pack and no need for any experimental toggles!",
+            "image": "https://kossandroid.com/Data Android/Minecraft/Animation/1/3.png",
+            "file_url": "https://kossandroid.com/Data Android/Minecraft/Animation/1/Better Mob Animations v1.9.3 by Raboy13.mcpack",
+            "imgcoversatu": "https://kossandroid.com/Data Android/Minecraft/Animation/1/2.png",
+            "imgcoverdua": "https://kossandroid.com/Data Android/Minecraft/Animation/1/1.png"
+        },
+        {
+            "name": "Bedrock Edition Defense Animation",
+            "role": "Let's get firstperson defense animation! Wave your swords! This pack can work on all servers well , because it is just a resource pack! I offer multiple versions of the pack, never have to worry about compatibilit!",
+            "image": "https://kossandroid.com/Data Android/Minecraft/Animation/2/4.png",
+            "file_url": "https://kossandroid.com/Data Android/Minecraft/Animation/2/BedrockEditionDefenseAnimation036.mcpack",
+            "imgcoversatu": "https://kossandroid.com/Data Android/Minecraft/Animation/2/3.png",
+            "imgcoverdua": "https://kossandroid.com/Data Android/Minecraft/Animation/2/1.png"
+        },
+        {
+            "name": "yCreatures Savanna (B)",
+            "role": "yCreatures, an amazing super complete add-on that brings even more fun to your Minecraft worlds!! This addon contains several new animals for your game, some cute, some not so friendly, but all amazing and super fun, with various varieties of animation, behavior, models and textures.",
+            "image": "https://kossandroid.com/Data Android/Minecraft/Animation/3/3.png",
+            "file_url": "https://kossandroid.com/Data Android/Minecraft/Animation/3/yCreaturesSavannaBehavior.mcpack",
+            "imgcoversatu": "https://kossandroid.com/Data Android/Minecraft/Animation/3/2.png",
+            "imgcoverdua": "https://kossandroid.com/Data Android/Minecraft/Animation/3/1.png"
+        },
+        {
+            "name": "yCreatures Savanna (R)",
+            "role": "yCreatures, an amazing super complete add-on that brings even more fun to your Minecraft worlds!! This addon contains several new animals for your game, some cute, some not so friendly, but all amazing and super fun, with various varieties of animation, behavior, models and textures.",
+            "image": "https://kossandroid.com/Data Android/Minecraft/Animation/3/6.png",
+            "file_url": "https://kossandroid.com/Data Android/Minecraft/Animation/3/yCreaturesSavannaResource.mcpack",
+            "imgcoversatu": "https://kossandroid.com/Data Android/Minecraft/Animation/3/5.png",
+            "imgcoverdua": "https://kossandroid.com/Data Android/Minecraft/Animation/3/4.png"
+        },
+        {
+            "name": "Fixed Player Animation (Beta 0.1.0)",
+            "role": "Have you ever been sick of Bedrock Edition's broken animations? This resource pack will fix the player animations! We'll keep trying to fix as many bugs as we can!Note: There may be a few bugs that are not currently present in vanilla. If you find a bug, we'd appreciate it if you'd contact us right away!",
+            "image": "https://kossandroid.com/Data Android/Minecraft/Animation/4/1.png",
+            "file_url": "https://kossandroid.com/Data Android/Minecraft/Animation/4/fixed_player_animation_kurisan_fox_kuma.mcpack",
+            "imgcoversatu": "https://kossandroid.com/Data Android/Minecraft/Animation/4/1.png",
+            "imgcoverdua": "https://kossandroid.com/Data Android/Minecraft/Animation/4/1.png"
+        },
+        {
+            "name": "Java 1.7 Animations V2",
+            "role": "Do you hate the vanilla Bedrock Edition player animations and general feel of the new Bedrock, ever since 1.13.0? Or maybe you want yet another way to make Bedrock look and feel closer to Java Edition, especially for PVP. Look no further, because this pack makes many improvements and tweaks to player animations to more closely resemble Java edition 1.7 (and even bedrock 1.12.1!).",
+            "image": "https://kossandroid.com/Data Android/Minecraft/Animation/5/1.png",
+            "file_url": "https://kossandroid.com/Data Android/Minecraft/Animation/5/1.16.100_java_anims_v2_by_ambient.mcpack",
+            "imgcoversatu": "https://kossandroid.com/Data Android/Minecraft/Animation/5/3.png",
+            "imgcoverdua": "https://kossandroid.com/Data Android/Minecraft/Animation/5/2.png"
+        },
+        {
+            "name": "EPIC PvP Animations",
+            "role": "Hello! I recently have been developing a PvP texture pack, and I added custom animations. However, some people didn't like some of the animations, so I decided to make this new pack that only modifies the animations.",
+            "image": "https://kossandroid.com/Data Android/Minecraft/Animation/6/2.png",
+            "file_url": "https://kossandroid.com/Data Android/Minecraft/Animation/6/EpicAnimations.mcpack",
+            "imgcoversatu": "https://kossandroid.com/Data Android/Minecraft/Animation/6/1.png",
+            "imgcoverdua": "https://kossandroid.com/Data Android/Minecraft/Animation/6/1.png"
+        }
+    ],
+    "Skins": [
+        {
+            "id": 4996423712,
+            "name_skin": "Skin Cars",
+            "skin_url": "https://lh3.googleusercontent.com/q5zTbcEeI44thLAZImfJWCrQWCopoX9yQdIIQ0NNJW4uDJgFAkTY4DJGiCKOc0C8Xb85dEOddtqATsXBPJnomN2D7fCKjJj36nc",
+            "view_skin": "https://lh3.googleusercontent.com/xsl9aNfNyzaZJB8ulmKI1zrLSw5B7JYMCdAF0ijWmU4OVlqFJgzaxIn664j_GI6ekww3bX2y9QGfZIpYdGieddozZzSta3GR8wW-"
+        },
+        {
+            "id": 5792704014,
+            "name_skin": "Skin Cars",
+            "skin_url": "https://lh3.googleusercontent.com/4D9i-_rlXf-Mv9zJyj249JglcT0Jhx6SwseEYpOCqtBCX6KmRm9Wul6OjnmCaWGO4DWi7XAfRFcHAjsIdIbFb7M7eMkr0kv6O6g",
+            "view_skin": "https://lh3.googleusercontent.com/IYVokiiamygNnDmTyXsRbshZ5JSKSvj2oLGW2Me9eqpVmRiuXR4-gWjkJ8REx7w6ainZhYPd4-KmYUoLBCheTftjXdTZpl-Zgjc"
+        },
+        {
+            "id": 5808613215,
+            "name_skin": "Skin Cars",
+            "skin_url": "https://lh3.googleusercontent.com/4D9i-_rlXf-Mv9zJyj249JglcT0Jhx6SwseEYpOCqtBCX6KmRm9Wul6OjnmCaWGO4DWi7XAfRFcHAjsIdIbFb7M7eMkr0kv6O6g",
+            "view_skin": "https://lh3.googleusercontent.com/L3AThJhD4GkRCeuQY4x1Y68DnoFYyjNb5Epu1DWslQ7w0KyC0d5enkty8g7eImKqeICy4dxPdYGYECt0uYUeF0vPSSt6wGb7rUs"
+        },
+        {
+            "id": 5794603477,
+            "name_skin": "Skin Cars",
+            "skin_url": "https://lh3.googleusercontent.com/eoecN1x4XfWI2TAG6e-evjeGBu5bg8Swkdd3QHbBrucqLYtsgg38e46B_MGGLgX9mbqe37IaEkUgJ8sG8mra5ELGzS_HXATgDPbP",
+            "view_skin": "https://lh3.googleusercontent.com/X6jXzEAHV86vpQRRzRUjkp_ttr5BEaCOa1ZfrMZ719v7Zd4YzdU8cJO7ZTFh11-pMyscVwayoPbuzDF-aZBXMEI3kVM_6xRn6ok"
+        },
+        {
+            "id": 5775544636,
+            "name_skin": "Skin Cars",
+            "skin_url": "https://lh3.googleusercontent.com/Nqw2nNclrijPfFuUJ_jLcJDf2auq5djBkDqBMNTNRR0-pZCaWQEt_pTTsvODH6N98CvGW5fjX8MFvtRaiycVzg8h6HSxllxOCys",
+            "view_skin": "https://lh3.googleusercontent.com/x3j5eZgeEYoVxC1fRVmCCT95a8P3fjZmiUNzLP9_7uTO1TODV36-7orKjHQCVlA3J6qa45ArRLeAmUuTk_HeJDgWaV8K7oTRw_c"
+        },
+        {
+            "id": 5746123027,
+            "name_skin": "Skin Cars",
+            "skin_url": "https://lh3.googleusercontent.com/N-o_AVcAOG7lMUU_1ktEdNZwcJtF5crOqcWfnHivJZBvk8OE8w7woxjgZzRlrM8eMSJbb1A9TCJIckqGCP1zwpil7VH5xQBB5YU",
+            "view_skin": "https://lh3.googleusercontent.com/6q3ulwORNb6j6CS47xCvM2LbXfmu2akdZd9d5kzusrplz2vIx-WDpXVZj0rt38As-NeVddJw96-1JvmXv_qkPCe1hP6U9rqpvKE3"
+        },
+        {
+            "id": 5725923104,
+            "name_skin": "Skin Cars",
+            "skin_url": "https://lh3.googleusercontent.com/XrSCU9eEwIl9ifDDaBMzUKRfjGYygeOeItwYZkjIMlLaSTRakAp8GQNQQwufMhMMrLxlohSCRs0ByGRSoTlMdC3Vwyx2fTKV9nc",
+            "view_skin": "https://lh3.googleusercontent.com/bK6fQ1_GLxFSM8W9K8VYOWj0bEeaKKulyM_NUUn_-FhSn9nbiSrmN9ohA2gyZXpziGm3mjiwY1QT2YQWCmZizCGDyowiOevGtw"
+        },
+        {
+            "id": 5662813347,
+            "name_skin": "Skin Cars",
+            "skin_url": "https://lh3.googleusercontent.com/Njvt7MzoiiKkJ7Q3hYkoG2ePZrJ3bz_zP6ykswf60xo5XhNoXdKPeV4F4mKQlJczl7YsUMw206y7yDnTDFbS7rcRDpx8KxnDwaRX",
+            "view_skin": "https://lh3.googleusercontent.com/5k8igvvZFRiMP31GegqVcLO4GDSX7ubNGQr0ccalFRR-vQ0FL_-_wjFOM59WEP6meVVYEhl6QBS5n38pO3Mu6B-WS-wBSB-_1sw"
+        },
+        {
+            "id": 5654393298,
+            "name_skin": "Skin Cars",
+            "skin_url": "https://lh3.googleusercontent.com/ykC2C3HaskX7i-szIFUcKL8nbuiDgB8Vq5XIUZhHjyV3L7EL2xEuw5sG37L8_dlxHOs7vvZxyozxrfxQNslyN6vyubAbsqMmpp0",
+            "view_skin": "https://lh3.googleusercontent.com/14h5psks4qgG5BuutOUesE4HYzmOU1u9tLmeLhROg0VE8h66hSEcWwlMVLhoNPMaO0nQkY2MRY3LY51xYWJBuvVsSWp7xkaqhw"
+        },
+        {
+            "id": 5626223775,
+            "name_skin": "Skin Cars",
+            "skin_url": "https://lh3.googleusercontent.com/A_Nfnsw_5zNG3DhVKdNTvhLs4oUVfY_b8tEupmzhAvaVPLa7w7Kal62_KTDafWL5SL42I8BRnuO497KJ3mGANkwUBpsEZSaeWWY",
+            "view_skin": "https://lh3.googleusercontent.com/dhhgsUJ4e1IIV2B72HYnKMBcbBB2VRyZSKmM32ritCQVvCswh_Hu4qNN8w1pLssYdes6qpQ97wjFckXUV_oy_9pbR2mLoyyUEw"
+        },
+        {
+            "id": 5638813147,
+            "name_skin": "Skin Cars",
+            "skin_url": "https://lh3.googleusercontent.com/nJjSIpnuKu80I0RYiJOzorE2zOgWFWK3IR0MjT-x1QI_ZZoiKLlCB_rXTWdrCauo0mWCNmqrkRvX387QzjrbEHyeRe4Xkwgeqdzz",
+            "view_skin": "https://lh3.googleusercontent.com/aJphMYrHuev3F1IKoC0j_eKWspPca8aMduUwBidAFJrUNLvMOOaBfquENQIT87C6LTlKmHAqdj-eQo1pde6S2MJkYo7DlpBjgc_6"
+        },
+        {
+            "id": 5632194131,
+            "name_skin": "Skin Cars",
+            "skin_url": "https://lh3.googleusercontent.com/Hvt8N-U-Fj4HXoYErOk6Ap92be62mJW1AdxTduMJDs3N_1FNCwIoOeVAfjuU1M11mGwNOB97_SedIGcTf-UdWeyE-wbJSZ873ZOK",
+            "view_skin": "https://lh3.googleusercontent.com/jjt4nnRvc6fcPk7SAH7yMzSrNbKQJfWo9o2--JN16fWi1xKqrjvOs8Rue7Dl5zQRF339N6p1lJGB1WMA2cpavH_mcZKAnRk7BLpM"
+        },
+        {
+            "id": 5622893029,
+            "name_skin": "Skin Cars",
+            "skin_url": "https://lh3.googleusercontent.com/zRGvKcmsrxQ5J_RZXrr0ba3zgPR7Mr6xHEskpM2DlDB3Xga2SqkASOsM71LCi0IsZ6ueneXW-gU_SJWbBDNhZk9E9RCnb9AAaxI",
+            "view_skin": "https://lh3.googleusercontent.com/wPUYgQw2CtckM7egwIHf50OISnGC23oKi8NR0W3iMSs9ugtbzNm5YIVrwiguq5GJw3NUFwSqPd9wcbImo4bqV8Z6qALd0jZd0V0"
+        },
+        {
+            "id": 5620553219,
+            "name_skin": "Skin Cars",
+            "skin_url": "https://lh3.googleusercontent.com/OIEftiBoWDFyaMMp_J6HVmaIlfYTHqw9l3g1_2gURkrI8RSCnKPIMbgXfLg55GCFtqn5IO8g6Nj7kDf1d4ta1MGtTYzeNTxAasU",
+            "view_skin": "https://lh3.googleusercontent.com/1HqQ-0L6v6zoHymzmPeZRQj-o_7AqG5aCOt992f59lRAUkY-iEt4Q47_U8BQ0a9xfconpjQjNCU63rXaO9pHF8Smy2iY2ROXnAY"
+        },
+        {
+            "id": 5626403062,
+            "name_skin": "Skin Cars",
+            "skin_url": "https://lh3.googleusercontent.com/z-vWUSnoSmVKdYsiKeTjdD5IMGgAzjbb12JkWUQ6UAkXhaiZ-16trsjRPox5ZTV_yNR565VAM3qQKoQTUNHkTtx-eAU-c1nTsbPN",
+            "view_skin": "https://lh3.googleusercontent.com/9JSukNTHgFP_h1A7G5KXF1a8C1Wyq0428D4VtLwTEI20jWGb4XJZrsJlnuWUES6vIRnhvTqpzt5sroqrBXo0RHFgOGUtYyKNjA"
+        },
+        {
+            "id": 5624263088,
+            "name_skin": "Skin Cars",
+            "skin_url": "https://lh3.googleusercontent.com/r34ei8ifSicJVlRfudtlp9eqoBpA8wGVK2CTK9wCdZR8X8Lwczw6eAOuamvwQ64K7R6ws9mh2g1Tqir6GWO9tdhyUoZs4jmUock",
+            "view_skin": "https://lh3.googleusercontent.com/k7AzeHUqAgaIQywb_3yJgWcXllBg4BeiB0OELuG8fEp4JGO_PRzgvNErUjWEz-XtIQDDtzO_hYG9EtttgOR6OG-9KisnEh70lg"
+        },
+        {
+            "id": 5611093048,
+            "name_skin": "Skin Cars",
+            "skin_url": "https://lh3.googleusercontent.com/4D9i-_rlXf-Mv9zJyj249JglcT0Jhx6SwseEYpOCqtBCX6KmRm9Wul6OjnmCaWGO4DWi7XAfRFcHAjsIdIbFb7M7eMkr0kv6O6g",
+            "view_skin": "https://lh3.googleusercontent.com/JLfGaprpYZx0O1bDEZIrgLrO5tUKKtdK8eX_mDKCJlGdQ-tj8Yj2KsiB-yr9tVvdhoBdqQ207_tnbLXKpNtQOiCICaNJkZiWlMUP"
+        },
+        {
+            "id": 5581423542,
+            "name_skin": "Skin Cars",
+            "skin_url": "https://lh3.googleusercontent.com/Pf7DeTrJSt9ZOOs1t6LcgMT1KfGNfhWdDwZucgy1awOzN5GvWF1Bo5iIASfM1zRFALEz927Ijvuir1daM_uaWBV-BpbWpN9d7g",
+            "view_skin": "https://lh3.googleusercontent.com/BGUsp-6DroT0xhqcbV6qvi0_wj4nsfy5FVFQsMp8z8ZQEvHZlave8jxZnD9TwLL1oQpbEVSr-C2px5I3LHq5OZLPmSKB-mPQJOs"
+        },
+        {
+            "id": 5497823194,
+            "name_skin": "Skin Cars",
+            "skin_url": "https://lh3.googleusercontent.com/qXh_Z7LzTHkiCa8o6tztu3t14ypocvHubm6gjIBmZDuv3lGRm06vWtA_LFFx38Rue7ir1XHucSYbYMGvpOv0nH5gQFfKSjMRDnA",
+            "view_skin": "https://lh3.googleusercontent.com/riw4DAi85ynXdTiISoUT8_boX9LuyouK_vw3FAjwgcgMK1vhP82OzJO1innLRwyIScLCJaiAxYXkDsG0kKQaAlkdllkSmCHHP-I"
+        },
+        {
+            "id": 5468463233,
+            "name_skin": "Skin Cars",
+            "skin_url": "https://lh3.googleusercontent.com/ptxtpZHibuAqeVEm7aRrkJbv1lGJpvksrvA3G8GMD9D3QT6vgQ_02JBE7Y_7MdWN4RYIv6tOZy6ze4W-B751AHusV6iwbVMDMA",
+            "view_skin": "https://lh3.googleusercontent.com/yeRSG6UlseXSS7xRJr9B_5T7Pj9WlkT3kQOPKsl8EXNASCQbOocEzIUH7mbwKv8omVFTylhT0riwVsOVRGcaUOU-mPaTUCzZ"
+        },
+        {
+            "id": 5444513831,
+            "name_skin": "Skin Cars",
+            "skin_url": "https://lh3.googleusercontent.com/l6Bonjfs0o1CxcIYAbKTOskMi88HBCqnCIBfTpWUIcjqLibRthrCLSKvzl8pTxME8Q6k0YAUmuWKJlkovn37mu_1aBu3lZqOzg",
+            "view_skin": "https://lh3.googleusercontent.com/380t6919tbiLT5wMNbKJ7E7k1bfZULkjsmkjWgKzlclKLJUQkPHhj3JrYippKeeWxiY7XWCYdj-VRmjuqmk_CjgHpQ8BZkiNLsQ"
+        },
+        {
+            "id": 5452633264,
+            "name_skin": "Skin Cars",
+            "skin_url": "https://lh3.googleusercontent.com/Uk5XysSzthnXw9FcA93z6C0svGkN8V8foyPTxJ_SkwCHpMHh4HmS_Z4YGnuTW7SYWMtb8U2oIirJ6D9XHOocNe-UpK12LCLJgk7Q",
+            "view_skin": "https://lh3.googleusercontent.com/RdPN8KbASWgoNBBeUG5fv-Q8oVUKYQuF5EDvE9A1DWF-bTXJxnDmrk5c0trePkFZC0RGdyUKH2PRGh6ueJaCXtTZH_wAI0ulzvT8"
+        },
+        {
+            "id": 5442853447,
+            "name_skin": "Skin Cars",
+            "skin_url": "https://lh3.googleusercontent.com/bFBb8-t1uKz8Mcj95Y31q6oDC-xMzG4qApm63gwdT14KQCPaBQfNEg_XWGzAZsWmTQkUnf5zjNYgL5hXKYjnrm9MHC621t9BWIo",
+            "view_skin": "https://lh3.googleusercontent.com/WvQfwwse7hVai-SKqhD8Zu6W-CvxOSu4djmboUqZT2MsI2MQbxBOFnIyC-kPp4Olr5bI9zBkC3JsU-lq2-Eba281hEfI5A_uPF4"
+        },
+        {
+            "id": 5417514950,
+            "name_skin": "Skin Cars",
+            "skin_url": "https://lh3.googleusercontent.com/LivmcAfiGl4-ADBS51ULQ_YUHBdMU5c_uvou9meGtIaWWWvGbfIckgPdA9269QkvMjmLPjhyx2ursXNI9pnWGs-OYBUvmM3LGPc",
+            "view_skin": "https://lh3.googleusercontent.com/sh5q7ASI8WXWcUtXRIvSxrnCAWKclMUzaD3L40tyDpcOLdeCVDobrumsWejTGAPrjlOLAHrhfJZxY85yQMZNNzdvzYpBvufSPyFM"
+        }
+    ],
+    "More":
+    [
+        
+        
+    
+      {
+        "id":1,
+        "title":"",
+        "image":"",
+        "link":"https://google.com/"
+      }
+    
+  
+        
+        
+        ]
   }
-  ],
-  "More":
-  [
-      
-      
   
-    {
-      "id":1,
-      "title":"",
-      "image":"",
-      "link":"https://google.com/"
-    }
-  
-
-      
-      
-      ]
-}
